@@ -68,7 +68,7 @@ def get_user_input_from_form(form_data):
 
 @app.route("/")
 def home():
-    return render_template("Main.html")
+    return render_template("index.html")
 
 
 @app.route("/predict", methods=["POST"])
